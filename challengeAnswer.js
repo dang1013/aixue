@@ -3,7 +3,7 @@ importClass(android.database.sqlite.SQLiteDatabase);
 var questionCommon = require("./questionCommon.js");
 
 var lCount = 1; //挑战答题轮数
-var qCount = random(6, 8); //挑战答题每轮答题数
+var qCount = random(1800,2000); //挑战答题每轮答题数
 /**
  * @description: 挑战答题
  * @param: null
